@@ -14,7 +14,6 @@ with open("subs.txt", 'r') as file:
                 word = line.strip()
                 full_url = word + "." + target
                 response = request(full_url)
-
                 if response:
                         print("Subdomain {} exists.".format(full_url))
 
