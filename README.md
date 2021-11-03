@@ -16,7 +16,7 @@ pip install requests
 ```
 
 ## How to operate:
-1. Navigate to the application's working directory.
+1. Navigate to the application's working directory
 ```
 python3 app.py
 ```
